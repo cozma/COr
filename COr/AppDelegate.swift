@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if let button = statusItem.button {
             button.image = NSImage(named: "StatusBarButtonImage")
             button.action = #selector(AppDelegate.togglePopover(_:))
-        }
+        }  // i fucked ur bitch.
 
         popover.contentViewController = searchController(nibName: "searchController", bundle: nil)
        
