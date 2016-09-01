@@ -18,10 +18,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         statusItem.title = "COr"
-//        if let button = statusItem.button {
-//            button.image = NSImage(named: "StatusBarButtonImage")
-//            button.action = #selector(AppDelegate.togglePopover(_:))
-//        }  // i fucked ur bitch.
+        if let button = statusItem.button {
+            button.image = NSImage(named: "StatusBarButtonImage")
+            button.action = #selector(AppDelegate.togglePopover(_:))
+        }  // i fucked ur bitch.
 
         popover.contentViewController = searchController(nibName: "searchController", bundle: nil)
        
