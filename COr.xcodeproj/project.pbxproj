@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C47472AA1D62550200ED7807 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47472A81D62550200ED7807 /* MainMenu.xib */; };
+		1BD11BA61D75107D00FF28EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD11BA51D75107D00FF28EC /* MainMenu.xib */; };
 		C4C097E61D5B6A4D00FCC9C0 /* searchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C097E41D5B6A4D00FCC9C0 /* searchController.swift */; };
 		C4C097E71D5B6A4D00FCC9C0 /* searchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C097E51D5B6A4D00FCC9C0 /* searchController.xib */; };
 		C4C097E91D5B6B7800FCC9C0 /* abbr.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C097E81D5B6B7800FCC9C0 /* abbr.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C47472A91D62550200ED7807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1BD11BA51D75107D00FF28EC /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		C4C097E41D5B6A4D00FCC9C0 /* searchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchController.swift; sourceTree = "<group>"; };
 		C4C097E51D5B6A4D00FCC9C0 /* searchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = searchController.xib; sourceTree = "<group>"; };
 		C4C097E81D5B6B7800FCC9C0 /* abbr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = abbr.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		C4FD31271D5A26B8003D6A07 /* COr */ = {
 			isa = PBXGroup;
 			children = (
-				C47472A81D62550200ED7807 /* MainMenu.xib */,
+				1BD11BA51D75107D00FF28EC /* MainMenu.xib */,
 				C4FD31281D5A26B8003D6A07 /* AppDelegate.swift */,
 				C4FD312A1D5A26B8003D6A07 /* Assets.xcassets */,
 				C4FD312F1D5A26B8003D6A07 /* Info.plist */,
@@ -134,7 +134,7 @@
 				C4D999BE1D5BBFAD00D34FFF /* abbr.json in Resources */,
 				C4FD312B1D5A26B8003D6A07 /* Assets.xcassets in Resources */,
 				C4C097E71D5B6A4D00FCC9C0 /* searchController.xib in Resources */,
-				C47472AA1D62550200ED7807 /* MainMenu.xib in Resources */,
+				1BD11BA61D75107D00FF28EC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,17 +153,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C47472A81D62550200ED7807 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C47472A91D62550200ED7807 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C4FD31301D5A26B8003D6A07 /* Debug */ = {
